@@ -91,46 +91,9 @@ const BannerStyleWrapper = styled.section`
       position: relative;
       margin-top: 70px;
 
-      .rocket_thumb {
-        position: relative;
-        z-index: 1;
-        animation: ${rocketAnimation} 5s infinite;
-      }
+      
 
-      .rocket_particle {
-        position: absolute;
-
-        &.particle_1 {
-          top: 15%;
-          left: 40%;
-          z-index: 2;
-          animation: ${rocketParticleAnimation("0", "25%")} 0.95s infinite;
-        }
-        &.particle_2 {
-          top: 50%;
-          left: 25%;
-          z-index: 2;
-          animation: ${rocketParticleAnimation("25%", "50%")} 0.95s infinite;
-        }
-        &.particle_3 {
-          top: 62%;
-          right: 29%;
-          z-index: 2;
-          animation: ${rocketParticleAnimation("40%", "60%")} 1s infinite;
-        }
-        &.particle_4 {
-          top: 60%;
-          left: 35%;
-          z-index: 0;
-          animation: ${rocketParticleAnimation("50%", "80%")} 1.05s infinite;
-        }
-        &.particle_5 {
-          top: 40%;
-          right: 33.5%;
-          z-index: 0;
-          animation: ${rocketParticleAnimation("50%", "90%")} 1.05s infinite;
-        }
-      }
+      
     }
   }
 

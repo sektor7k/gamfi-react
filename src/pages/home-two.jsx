@@ -8,7 +8,6 @@ import Banner from "sections/Banner/v2";
 import Header from "sections/Header/v2";
 import Count from "sections/Count/v2";
 import ExploreProjects from "sections/Projects/v4";
-import Features from "sections/Features/v1";
 import Allocations from "sections/Allocations/v1";
 import RoadMap from "sections/RoadMap/v1";
 import Partner from "sections/Partner/v1";
@@ -27,7 +26,6 @@ export default function HomeTwo() {
         <Banner />
         <Count />
         <ExploreProjects />
-        <Features />
         <Allocations />
         <RoadMap />
         <Partner />
