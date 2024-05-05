@@ -1,4 +1,3 @@
-import CTA from "sections/CTA/v2";
 import FooterBottom from "../FooterBottom/v1";
 import shapeLeft from "assets/images/homeV2/bottomShape-left.png"
 import shapeRight from "assets/images/homeV2/bottomShape-right.png"
@@ -8,7 +7,7 @@ import FooterStyleWrapper from "./footer.style";
 const Footer = () => {
   return (
     <FooterStyleWrapper>
-      <CTA />
+
       <FooterBottom />
 
       <div className="footer_cta">

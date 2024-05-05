@@ -1,5 +1,4 @@
 import ProjectList from "./LiveProjectList/ProjectList";
-import PreviousProject from "./PreviousProject/PreviousProjects";
 
 import ProjectClassicStyleWrapper from "./ProjectClassic.style";
 
@@ -16,7 +15,6 @@ const ProjectClassic = () => {
         </div>
         <ProjectList />
       </div>
-      <PreviousProject />
     </ProjectClassicStyleWrapper>
   );
 };

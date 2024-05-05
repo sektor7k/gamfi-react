@@ -46,11 +46,6 @@ const FAQ = () => {
               ))}
             </Accordion>
           </div>
-
-          <h5 className="faq_cta_text">
-            Don’t get your answer ?
-            <a href="/contact"> Ask Here ! </a>
-          </h5>
         </div>
       </div>
     </FAQStyleWrapper>
