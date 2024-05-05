@@ -15,9 +15,10 @@
     "react-dom": "^18.2.0",
     "react-helmet": "^6.1.0",
     "react-icons": "^4.4.0",
-    "react-modal-video": "^2.0.0",
+    "react-modal-video": "^1.2.10",
+   
     "react-router-dom": "^6.3.0",
-    "react-scripts": "5.0.1",
+    "react-scripts": "^5.0.1",
     "react-slick": "^0.29.0",
     "react-tabs": "^5.1.0",
     "react-visibility-sensor": "^5.1.1",
@@ -49,6 +50,6 @@
     ]
   },
   "devDependencies": {
-    "netlify-cli": "^10.16.0"
+    "netlify-cli": "^17.23.1"
   }
 }
