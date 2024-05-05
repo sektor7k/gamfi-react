@@ -1,5 +1,4 @@
 import styled, { keyframes } from "styled-components";
-import bannerBG from "assets/images/bg/bgV2.png";
 
 const rocketAnimation = keyframes`
         0%,
@@ -22,7 +21,6 @@ const rocketParticleAnimation = (start, end) => {
 
 const BannerStyleWrapper = styled.section`
   min-height: 800px;
-  background: url(${bannerBG});
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
