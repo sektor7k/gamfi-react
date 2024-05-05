@@ -1,6 +1,5 @@
 import { useState } from "react";
 import { FiChevronLeft, FiChevronRight } from "react-icons/fi";
-import nextArrowIcon from "assets/images/icons/next-arrow.png"
 import {
     add,
     getDay,
@@ -20,10 +19,7 @@ import ProjectCard from "./ProjectCard/ProjectCard";
 import ProjectCalendarStyleWrapper from "./ProjectCalendar.style";
 // assets
 import projects from "assets/data/projectsCalendar/data";
-import coinIcon1 from "assets/images/project/previous-image.png";
-import coinIcon2 from "assets/images/project/previous-image2.png";
-import coinIcon3 from "assets/images/project/previous-image3.png";
-import coinIcon4 from "assets/images/project/chain.png";
+
 
 const ProjectCalendar = () => {
     //modal state
@@ -117,36 +113,7 @@ const ProjectCalendar = () => {
                             <FiChevronRight />
                         </button>
                     </div>
-                    <div className="item_sorting_list">
-                        <button>
-                            All Access
-                            <img src={nextArrowIcon} alt="icon" />
-                            <ul className="sub-menu">
-                                <li>All Access</li>
-                                <li>Public</li>
-                                <li>Private</li>
-                                <li>Community</li>
-                            </ul>
-                        </button>
-                        <button>
-                            All Block Chain
-                            <img src={nextArrowIcon} alt="icon" />
-                            <ul className="sub-menu">
-                                <li>
-                                    <img src={coinIcon1} alt="icon" /> Binance (BSC)
-                                </li>
-                                <li>
-                                    <img src={coinIcon2} alt="icon" /> Ethereum (ETH)
-                                </li>
-                                <li>
-                                    <img src={coinIcon3} alt="icon" /> Polygon
-                                </li>
-                                <li>
-                                    <img src={coinIcon4} alt="icon" /> All Block Chain
-                                </li>
-                            </ul>
-                        </button>
-                    </div>
+                    
                 </div>
                 <div className="week_list grid grid-cols-7">
                     <span className="week_name">Sun</span>

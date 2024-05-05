@@ -24,14 +24,7 @@ const PageHeader = ({ currentPage, pageTitle }) => {
             </div>
           </div>
 
-          <div className="col-lg-7">
-            <div className="breadcrumb_form">
-              <Button sm variant="dark" href="/projects-list">
-                <CgMenuMotion />
-                List View
-              </Button>
-            </div>
-          </div>
+          
         </div>
       </div>
     </PageHeaderStyleWrapper>

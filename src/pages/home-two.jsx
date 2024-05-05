@@ -10,7 +10,6 @@ import Count from "sections/Count/v2";
 import ExploreProjects from "sections/Projects/v4";
 import Allocations from "sections/Allocations/v1";
 import RoadMap from "sections/RoadMap/v1";
-import Partner from "sections/Partner/v1";
 import Faq from "sections/Faq/v1";
 import Footer from "sections/Footer/v2";
 
@@ -28,7 +27,6 @@ export default function HomeTwo() {
         <ExploreProjects />
         <Allocations />
         <RoadMap />
-        <Partner />
         <Faq />
         <Footer />
       </Layout>
