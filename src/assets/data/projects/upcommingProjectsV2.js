@@ -27,10 +27,7 @@ export default {
         // porject
         {
           thumb: projectThumb4,
-          title: "Fisrt Survivor",
-          price: "0.89 BUSD",
-          saleEnd: "12",
-          coinIcon: coinIcon4,
+          saleEnd: "Tier 1",
           projectDetails: [
             {
               title: "Min allocation",
@@ -49,35 +46,12 @@ export default {
               text: "Public",
             },
           ],
-          socialLinks: [
-            {
-              icon: telegram,
-              url: "#",
-            },
-            {
-              icon: discord,
-              url: "#",
-            },
-            {
-              icon: linkedin,
-              url: "#",
-            },
-            {
-              icon: medium,
-              url: "#",
-            },
-            {
-              icon: twitter,
-              url: "#",
-            },
-          ],
+          
         },
         {
           thumb: projectThumb5,
-          title: "Cryowar Two",
-          price: "0.45 BUSD",
-          saleEnd: "14",
-          coinIcon: coinIcon5,
+
+          saleEnd: "Tier 2",
           projectDetails: [
             {
               title: "Min allocation",
@@ -96,35 +70,12 @@ export default {
               text: "Public",
             },
           ],
-          socialLinks: [
-            {
-              icon: telegram,
-              url: "#",
-            },
-            {
-              icon: discord,
-              url: "#",
-            },
-            {
-              icon: linkedin,
-              url: "#",
-            },
-            {
-              icon: medium,
-              url: "#",
-            },
-            {
-              icon: twitter,
-              url: "#",
-            },
-          ],
+          
         },
         {
           thumb: projectThumb6,
-          title: "Gaia Everworld",
-          price: "0.13 BUSD",
-          saleEnd: "15",
-          coinIcon: coinIcon6,
+
+          saleEnd: "Tier 3",
           projectDetails: [
             {
               title: "Min allocation",
@@ -143,28 +94,7 @@ export default {
               text: "Public",
             },
           ],
-          socialLinks: [
-            {
-              icon: telegram,
-              url: "#",
-            },
-            {
-              icon: discord,
-              url: "#",
-            },
-            {
-              icon: linkedin,
-              url: "#",
-            },
-            {
-              icon: medium,
-              url: "#",
-            },
-            {
-              icon: twitter,
-              url: "#",
-            },
-          ],
+          
         },
       ],
     },
