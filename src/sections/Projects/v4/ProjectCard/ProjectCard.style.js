@@ -54,7 +54,7 @@ const ProjectCardStyleWrapper = styled.div`
     .heading-title {
       h4 {
         font-size: 16px;
-        margin-bottom: 0;
+        margin-top: 6px;
         position: relative;
       }
     }

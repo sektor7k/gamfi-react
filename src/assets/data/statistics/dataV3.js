@@ -1,24 +1,20 @@
 const data = [
   {
-    title: "MARKET CAP",
-    value: "490.88",
-    suffix: "M",
+    title: "PLAYER",
+    value: "2.3",
+    suffix: "K",
   },
   {
-    title: "TVL",
+    title: "COMMUNITY",
     value: "38.60",
-    suffix: "M",
+    suffix: "K",
   },
   {
-    title: "PRICE",
-    value: "0.09",
+    title: "COMPETITIVE SCENE ",
+    value: "54",
     suffix: "",
   },
-  {
-    title: "FUND RAISED",
-    value: "160",
-    suffix: "M",
-  },
+  
 ];
 
 export default data;
