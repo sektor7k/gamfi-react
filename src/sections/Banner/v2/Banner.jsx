@@ -45,8 +45,8 @@ const Banner = () => {
       {/* İçerik */}
       <ContentWrapper>
         <div className="gamfi_v2_hero_left">
-          <h2>Multichain DeFi Web <span>3.0</span> Ecosystem</h2>
-          <p>The next generation gaming ecosystem for IGOs and NFT market</p>
+          <h2>Fight Your Team, Win on the Blockchain</h2>
+          <p>Get ready for team-based, strategic FPS battles powered by innovative web3 technology</p>
           <div class="banner-btns d-flex justify-content-center">
                   <Button href="#" md variant="mint">
                     Play Now

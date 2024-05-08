@@ -18,11 +18,9 @@ const ProjectCard = ({
               <img src={thumb} alt="icon" className="img-fluid" /> 
             <strong>{title}</strong>
           </li>
-          <li aria-label="starking :" className="staking-item">$ {starking}</li>
+          <li aria-label="starking :" className="staking-item">{starking}</li>
           <li aria-label="allocation :" className="allocation-item">{allocation}</li>
-          <li aria-label="requirements :" className="requirements-item">{requirements}</li>
-          <li aria-label="kyc :" className="kyc-item">{kyc}</li>
-          <li aria-label="weight :" className="weight-item">{weight}</li>
+ 
           <CardHover />
         </ul>
       </div>

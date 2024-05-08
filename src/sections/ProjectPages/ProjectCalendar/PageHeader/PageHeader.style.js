@@ -1,8 +1,7 @@
 import styled from "styled-components";
-import breadcumdBg from "assets/images/bg/breadcrumbs-bg.jpg";
 
 const PageHeaderStyleWrapper = styled.div`
-  background: url(${breadcumdBg});
+background: #000000;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

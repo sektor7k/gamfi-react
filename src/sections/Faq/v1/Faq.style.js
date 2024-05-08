@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 const FAQStyleWrapper = styled.section`
-  background: #090a1a;
+  background: #070707;
   padding-top: 0px;
   padding-bottom: 105px;
 

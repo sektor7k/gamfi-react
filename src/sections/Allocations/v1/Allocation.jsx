@@ -15,10 +15,7 @@ const Allocation = () => {
           <ul className="menu-list">
             <li>TIERS</li>
             <li>STAKING</li>
-            <li>ALLOCATION</li>
-            <li>REQUIREMENTS</li>
-            <li aria-label="KYC">KYC</li>
-            <li>WEIGHT</li>
+            <li>ALLOCATION</li>   
           </ul>
         </div>
         <div className="row align-items-center projects-row">

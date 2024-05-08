@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 const AllocationStyleWrapper = styled.div`
-  background: #090a1a;
+  background: #070707;
   padding-top: 0px;
   padding-bottom: 105px;
   .menu-list {
@@ -22,28 +22,18 @@ const AllocationStyleWrapper = styled.div`
       transition: 0.4s;
 
       &:nth-child(1) {
-        width: 140px;
+        width: 300px;
         margin-right: 81px;
       }
       &:nth-child(2) {
-        width: 158px;
+        width: 300px;
         margin-right: 46px;
       }
       &:nth-child(3) {
-        width: 175px;
+        width: 300px;
         margin-right: 84px;
       }
-      &:nth-child(4) {
-        width: 158px;
-        margin-right: 79px;
-      }
-      &:nth-child(5) {
-        width: 41px;
-        margin-right: 73px;
-      }
-      &:nth-child(6) {
-        width: 99px;
-      }
+      
     }
   }
 

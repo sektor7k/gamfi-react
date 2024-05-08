@@ -5,7 +5,7 @@ const StatisticsCounterStyleWrapper = styled.div`
   display: flex;
   align-items: center;
   min-height: 158px;
-  background: rgba(30, 31, 53, 0.8);
+  background: #070707;
   backdrop-filter: blur(5px);
   padding: 20px;
   &::before,

@@ -3,7 +3,7 @@ import styled from "styled-components";
 const ProjectCalendarStyleWrapper = styled.div`
   padding-top: 70px;
   padding-bottom: 130px;
-  background: #090b1a;
+  background: #070707;
 
   .week_list {
     height: 62px;

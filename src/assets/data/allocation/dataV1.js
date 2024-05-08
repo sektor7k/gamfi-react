@@ -1,55 +1,42 @@
-import icon from "assets/images/icons/iconSilver.svg";
-import icon2 from "assets/images/icons/iconBronze.svg";
-import icon3 from "assets/images/icons/icongold.svg";
-import icon4 from "assets/images/icons/iconDaimond.svg";
-import icon5 from "assets/images/icons/iconPlatinum.svg";
+import icon from "assets/rank/1.png";
+import icon2 from "assets/rank/2.png";
+import icon3 from "assets/rank/3.png";
+import icon4 from "assets/rank/4.png";
+import icon5 from "assets/rank/5.png";
 
 const data = [
-  {
-    thumb: icon,
-    title: "Silver",
-    starking: "10,000",
-    allocation: "Lottery (20%)",
-    requirements: "Whitelist Task",
-    kyc: "No",
-    weight: "2.5x",
-  },
-  {
-    thumb: icon2,
-    title: "Bronze",
-    starking: "50,000",
-    allocation: "Lottery (50%)",
-    requirements: "Whitelist Task",
-    kyc: "No",
-    weight: "No",
-  },
-  {
-    thumb: icon3,
-    title: "Gold",
-    starking: "100,000",
-    allocation: "Guaranteed allocation",
-    requirements: "No",
-    kyc: "Yes",
-    weight: "5.9x",
-  },
-  {
-    thumb: icon4,
-    title: "Diamond",
-    starking: "500,000",
-    allocation: "Guaranteed allocation",
-    requirements: "No",
-    kyc: "Yes",
-    weight: "7.0x",
-  },
-  {
-    thumb: icon5,
-    title: "Platinum",
-    starking: "10,000,000",
-    allocation: "Guaranteed allocation",
-    requirements: "No",
-    kyc: "Yes",
-    weight: "10.5x",
-  },
+  
+    {
+      thumb: icon5,
+      title: "Diamond",
+      starking: "Top 20 players",
+      allocation: "20% of the revenue pool"
+    },
+    {
+      thumb: icon4,
+      title: "Platinum",
+      starking: "Top 21-100 players",
+      allocation: "15% of the revenue pool"
+    },
+    {
+      thumb: icon3,
+      title: "Gold",
+      starking: "10,001 XP - 50,000 XP",
+      allocation: "10% of the revenue pool"
+    },
+    {
+      thumb: icon2,
+      title: "Silver",
+      starking: "1,001 XP - 10,000 XP",
+      allocation: "5% of the revenue pool"
+    },
+    {
+      thumb: icon,
+      title: "Bronze",
+      starking: "0 XP - 1,000 XP",
+      allocation: "3% of the revenue pool"
+    }
+  
 ];
 
 export default data;

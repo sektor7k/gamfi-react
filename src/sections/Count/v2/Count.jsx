@@ -12,13 +12,13 @@ const StatisticsCounter = () => {
               <div className="counter-info">
                 <h5 className="counter-title">{stat.title}</h5>
                 <h4 className="counter-number ">
-                  $
                   <Counter
                     end={stat.value}
                     decimal="."
                     decimals={stat.value % 1 !== 0 ? "2" : "0"}
                     suffix={stat.suffix}
                   />
+                  +
                 </h4>
               </div>
             </div>

@@ -16,20 +16,7 @@ const RoadMap = () => {
 
         <div className="roadmap_content">
           <Tabs>
-            <TabList>
-              {data?.map((item, i) => (
-                <Tab key={i}>
-                  <Button
-                    href="# "
-                    variant="outline"
-                    sm
-                    onClick={(e) => e.preventDefault()}
-                  >
-                    {item.year}
-                  </Button>
-                </Tab>
-              ))}
-            </TabList>
+            
 
             {data?.map((roadMaps, i) => (
               <TabPanel key={i} className="row tabs-row">

@@ -3,7 +3,7 @@ import formShadow from "assets/images/kycimg/BlurShadow.svg";
 import formBg from "assets/images/kycimg/signUpBgimage.svg";
 
 const RegisterStyleWrapper = styled.div`
-  background: #090a1a;
+  background: #000000;
   position: relative;
   padding: 96px 0px 0px 0px;
 
@@ -13,7 +13,6 @@ const RegisterStyleWrapper = styled.div`
     top: 0;
     width: 100%;
     height: 400px;
-    background-image: url(${formBg});
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -27,7 +26,7 @@ const RegisterStyleWrapper = styled.div`
   }
 
   .auth_form {
-    background: rgba(30, 31, 53, 0.8);
+    background: none;
     width: 100%;
     margin: auto;
     padding: 63px 60px 56px 60px;

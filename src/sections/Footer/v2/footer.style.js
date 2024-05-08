@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 const FooterStyleWrapper = styled.footer`
   position: relative;
-  background: #090a1a;
+  background: #000000;
   .footer_bottom_wrapper {
     margin-bottom: 200px;
   }
@@ -10,7 +10,7 @@ const FooterStyleWrapper = styled.footer`
   .footer_cta {
     width: 100%;
     height: 200px;
-    background: #6d4afe;
+    background: #000000;
     position: fixed;
     left: 0;
     right: 0;

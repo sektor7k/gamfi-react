@@ -1,18 +1,23 @@
 const data = [
   {
-    title: "PLAYER",
-    value: "2.3",
-    suffix: "K",
-  },
-  {
-    title: "COMMUNITY",
-    value: "38.60",
-    suffix: "K",
-  },
-  {
-    title: "COMPETITIVE SCENE ",
-    value: "54",
+    title: "Total Players",
+    value: "64",
     suffix: "",
+  },
+  {
+    title: "Active Player",
+    value: "15",
+    suffix: "",
+  },
+  {
+    title: "Total hours played",
+    value: "1.2",
+    suffix: "K",
+  },
+  {
+    title: "Total Bullets Fired",
+    value: "54",
+    suffix: "K",
   },
   
 ];

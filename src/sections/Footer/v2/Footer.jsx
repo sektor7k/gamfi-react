@@ -1,7 +1,7 @@
 import FooterBottom from "../FooterBottom/v1";
-import shapeLeft from "assets/images/homeV2/bottomShape-left.png"
-import shapeRight from "assets/images/homeV2/bottomShape-right.png"
-import rocketThumb from "assets/images/homeV2/rocket.png"
+import shapeLeft from "assets/image/right.png"
+import shapeRight from "assets/image/left.png"
+import rocketThumb from "assets/image/footerimage.png"
 import FooterStyleWrapper from "./footer.style";
 
 const Footer = () => {
@@ -16,7 +16,7 @@ const Footer = () => {
         <div className="rocket_thumb">
           <img src={rocketThumb} alt="rocket icon" className="img-fluid" />
         </div>
-        <a href="/igo-apply" className="cta_link">APPLY FOR PROJECT</a>
+        <a href="#" className="cta_link">PLAY NOW</a>
       </div>
     </FooterStyleWrapper>
   );

@@ -36,7 +36,7 @@ const ProjectCardStyleWrapper = styled.div`
     }
 
     .tier-thumb {
-      width: 140px;
+      width: 300px;
       margin-right: 84px;
       display: flex;
       align-items: center;
@@ -51,24 +51,14 @@ const ProjectCardStyleWrapper = styled.div`
       }
     }
     .staking-item {
-      width: 158px;
+      width: 300px;
       margin-right: 46px;
     }
     .allocation-item {
-      width: 175px;
+      width: 300px;
       margin-right: 84px;
     }
-    .requirements-item {
-      width: 158px;
-      margin-right: 79px;
-    }
-    .kyc-item {
-      width: 41px;
-      margin-right: 73px;
-    }
-    .weight-item {
-      width: 99px;
-    }
+    
 
     &:hover {
       background: radial-gradient(
@@ -91,7 +81,7 @@ const ProjectCardStyleWrapper = styled.div`
     .tier_system_list {
       flex-direction: column;
       align-items: flex-end;
-      row-gap: 20px;
+      row-gap: 40px;
 
       &::before {
         background-size: cover;

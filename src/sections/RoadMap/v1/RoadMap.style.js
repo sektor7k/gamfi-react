@@ -3,7 +3,7 @@ import styled from "styled-components";
 const RoadMapStyleWrapper = styled.section`
   padding-top: 116px;
   padding-bottom: 123px;
-  background: rgba(30, 31, 53, 0.8);
+  background: #070707;
   backdrop-filter: blur(5px);
   position: relative;
 
