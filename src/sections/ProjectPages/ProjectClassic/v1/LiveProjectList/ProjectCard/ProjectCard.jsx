@@ -7,14 +7,15 @@ const ProjectCard = ({
   title,
   thumb,
   projectIcon,
-  coinIcon,
-  projectDeadline,
-  price,
-  totalRised,
+  totalRised, 
   totalValue,
   progress,
-  sales,
-  airdrop,
+  totalRised2, 
+  totalValue2,
+  progress2,
+  totalRised3, 
+  totalValue3,
+  progress3,
   projectFeatures,
   socialLinks,
 }) => {
@@ -60,15 +61,12 @@ const ProjectCard = ({
       <div className="project_content_right">
         <div className="project_headings">
           <a href="/projects-details-1">{title}</a>
-          <p>price (PRC) = {price} BUSD</p>
-          <span className="coin_icon">
-            <img src={coinIcon} alt="chain" className="img-fluid" />
-          </span>
+          
         </div>
         <div className="project_meta">
           <div className="project_fund">
             <h3>
-              Total Raised :{" "}
+            Damage :{" "}
               <Counter
                 end={totalRised}
                 decimal="."
@@ -93,10 +91,61 @@ const ProjectCard = ({
             </span>
           </div>
           <ProgressBar progress={`${progress}%`} />
-          <div className="project_sell_stat">
-            <span>Sale: {sales}</span>
-            <span>Airdrop: {airdrop}</span>
+          <div className="project_fund">
+            <h3>
+            Accuracy :{" "}
+              <Counter
+                end={totalRised2}
+                decimal="."
+                decimals={totalRised2 % 1 !== 0 ? "2" : "0"}
+                suffix=""
+              />{" "}
+              /{" "}
+              <Counter
+                end={totalValue2}
+                decimal="."
+                decimals={totalValue2 % 1 !== 0 ? "2" : "0"}
+                suffix=""
+              />
+            </h3>
+            <span className="counter">
+              <Counter
+                end={progress2}
+                decimal="."
+                decimals={progress2 % 1 !== 0 ? "2" : "0"}
+                suffix="%"
+              />
+            </span>
           </div>
+          <ProgressBar progress={`${progress2}%`} />
+          <div className="project_fund">
+            <h3>
+            Fire Rate :{" "}
+              <Counter
+                end={totalRised3}
+                decimal="."
+                decimals={totalRised3 % 1 !== 0 ? "2" : "0"}
+                suffix=""
+              />{" "}
+              /{" "}
+              <Counter
+                end={totalValue3}
+                decimal="."
+                decimals={totalValue3 % 1 !== 0 ? "2" : "0"}
+                suffix=""
+              />
+            </h3>
+            <span className="counter">
+              <Counter
+                end={progress3}
+                decimal="."
+                decimals={progress3 % 1 !== 0 ? "2" : "0"}
+                suffix="%"
+              />
+            </span>
+          </div>
+          <ProgressBar progress={`${progress3}%`} />
+          
           <ul className="project_feature_list">
             {projectFeatures?.map((item, i) => (
               <li key={i}>
@@ -105,14 +154,7 @@ const ProjectCard = ({
               </li>
             ))}
           </ul>
-          <div className="project_social_links">
-            {socialLinks?.map((profile, i) => (
-              <a key={i} href={profile.url}>
-                {" "}
-                <img src={profile.icon} alt="" />{" "}
-              </a>
-            ))}
-          </div>
+        
         </div>
       </div>
     </ProjectCardStyleWrapper>

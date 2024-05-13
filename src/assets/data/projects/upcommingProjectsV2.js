@@ -30,6 +30,10 @@ export default {
               title: "Free Sprays",
               text: "3 sprays unlocked"
             },
+            {
+              title: "Price",
+              text: "1 STRK"
+            },
             
           ]
         },
@@ -49,6 +53,10 @@ export default {
               title: "Free Sprays",
               text: "7 sprays unlocked"
             },
+            {
+              title: "Price",
+              text: "3 STRK"
+            },
             
           ]
         },
@@ -67,6 +75,10 @@ export default {
             {
               title: "Free Sprays",
               text: "15 sprays unlocked"
+            },
+            {
+              title: "Price",
+              text: "7 STRK"
             },
             
           ]

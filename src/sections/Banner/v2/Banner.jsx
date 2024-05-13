@@ -33,13 +33,13 @@ const ContentWrapper = styled.div`
 const Banner = () => {
   return (
     <VideoBackground>
-     
+
       <video autoPlay loop muted playsInline style={{ width: "100%", height: "100%", objectFit: "cover", position: "absolute", top: 0, left: 0 }}>
         <source src={video} type="video/mp4" />
         Tarayıcınız video etiketini desteklemiyor.
       </video>
 
-     
+
       <VideoOverlay />
 
       {/* İçerik */}
@@ -48,10 +48,11 @@ const Banner = () => {
           <h2>Fight Your Team, Win on the Blockchain</h2>
           <p>Get ready for team-based, strategic FPS battles powered by innovative web3 technology</p>
           <div class="banner-btns d-flex justify-content-center">
-                  <Button href="#" md variant="mint">
-                    Play Now
-                  </Button>
-                </div>
+            <Button href="#" md variant="mint">
+              Play Now
+            </Button>
+          </div>
+          
         </div>
       </ContentWrapper>
     </VideoBackground>

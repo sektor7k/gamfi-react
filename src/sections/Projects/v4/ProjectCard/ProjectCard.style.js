@@ -3,7 +3,7 @@ import styled from "styled-components";
 
 const ProjectCardStyleWrapper = styled.div`
   padding: 30px 30px 10px;
-  background: rgba(30, 31, 53, 0.8);
+  background: rgba(255, 255, 255, 0.05);
   transition: all 0.4s;
   position: relative;
   z-index: 2;
@@ -102,8 +102,8 @@ const ProjectCardStyleWrapper = styled.div`
   &:hover {
     background-image: radial-gradient(
       circle,
-      rgba(137, 120, 211, 0.4) 0%,
-      #1e1f35 100%
+      rgba(255, 255, 255, 0.05) 0%,
+      
     );
 
     .card-hover-wrapper {

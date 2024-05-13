@@ -1,4 +1,6 @@
 import CardHover from "components/cardHover";
+import Button from "components/button2";
+
 import ProjectCardStyleWrapper from "./ProjectCard.style";
 
 const ProjectCard = ({
@@ -32,8 +34,12 @@ const ProjectCard = ({
             </li>
           ))}
         </ul>
-        <div className="social-links">
-          <a><img alt="" /></a>
+        <div className="social-links justify-content-center">
+          <div class="banner-btns d-flex justify-content-center">
+            <Button href="#" md variant="outline">
+              MİNT
+            </Button>
+          </div>
         </div>
       </div>
 

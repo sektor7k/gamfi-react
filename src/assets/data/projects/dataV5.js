@@ -4,133 +4,100 @@ import thumb2 from "assets/images/project/ProjectClasicContainer2.png";
 import projectIcon1 from "assets/images/project/project-image4.png";
 import projectIcon2 from "assets/images/project/privius-image14.png";
 
-import coinIcon1 from "assets/images/project/icon-2.png";
-import coinIcon2 from "assets/images/project/icon-4.png";
 
-import facebook from "assets/images/icons/facebook.svg";
-import discord from "assets/images/icons/discord.svg";
-import insta from "assets/images/icons/insta.svg";
-import linkedin from "assets/images/icons/linkedin.svg";
-import medium from "assets/images/icons/medium.svg";
-import telegram from "assets/images/icons/telegram.svg";
-import twitter from "assets/images/icons/twitter.svg";
+
 
 const data = [
   {
-    title: "Pixels Run",
+    title: "Tempest Rifle",
     thumb: thumb1,
     projectIcon: projectIcon1,
-    coinIcon: coinIcon1,
-    projectDeadline: 1084461,
-    price: "0.22",
-    totalRised: "30999.70",
-    totalValue: "100000",
-    progress: "32",
-    sales: "95%",
-    airdrop: "5%",
+    totalRised: "350",
+    totalValue: "1000",
+    progress: "35",
+    totalRised2: "900",
+    totalValue2: "1000",
+    progress2: "90",
+    totalRised3: "0.85",
+    totalValue3: "3",
+    progress3: "32",
+    
     projectFeatures: [
       {
-        title: "Access",
-        text: "Public Access",
+        title: "Ammo Capacity",
+        text: "30 rounds per magazine",
       },
       {
-        title: "Allocation",
-        text: "500 BUSD Max",
+        title: "Reload Time",
+        text: "2 seconds",
       },
       {
-        title: "Participants",
-        text: "5555 Max",
+        title: "Range",
+        text: "600 meters",
       },
     ],
 
-    socialLinks: [
-      {
-        icon: facebook,
-        url: "#",
-      },
-      {
-        icon: discord,
-        url: "#",
-      },
-      {
-        icon: insta,
-        url: "#",
-      },
-      {
-        icon: linkedin,
-        url: "#",
-      },
-      {
-        icon: medium,
-        url: "#",
-      },
-      {
-        icon: telegram,
-        url: "#",
-      },
-      {
-        icon: twitter,
-        url: "#",
-      },
-    ],
   },
   {
-    title: "Metaverse Ware V2",
+    title: "Shadow Sniper",
     thumb: thumb2,
     projectIcon: projectIcon2,
-    coinIcon: coinIcon2,
-    projectDeadline: 1084569,
-    price: "3.88",
-    totalRised: "220485.00 ",
-    totalValue: "350000",
-    progress: "65",
-    sales: "90%",
-    airdrop: "10%",
+    totalRised: "950",
+    totalValue: "1000",
+    progress: "95",
+    totalRised2: "980",
+    totalValue2: "1000",
+    progress2: "98",
+    totalRised3: "1.75",
+    totalValue3: "3",
+    progress3: "65",
+
     projectFeatures: [
       {
-        title: "Access",
-        text: "Public Access",
+        title: "Ammo Capacity",
+        text: "5 rounds per magazine",
       },
       {
-        title: "Allocation",
-        text: "500 BUSD Max",
+        title: "Reload Time",
+        text: "3.5 seconds",
       },
       {
-        title: "Participants",
-        text: "5555 Max",
+        title: "Range",
+        text: "1500 meters",
       },
     ],
 
-    socialLinks: [
+  },
+  {
+    title: "Fury SMG",
+    thumb: thumb2,
+    projectIcon: projectIcon2,
+    
+    totalRised: "180",
+    totalValue: "1000",
+    progress: "18",
+    totalRised2: "820",
+    totalValue2: "1000",
+    progress2: "82",
+    totalRised3: "0.1",
+    totalValue3: "3",
+    progress3: "3",
+    
+    projectFeatures: [
       {
-        icon: facebook,
-        url: "#",
+        title: "Ammo Capacity",
+        text: "50 rounds per magazine",
       },
       {
-        icon: discord,
-        url: "#",
+        title: "Reload Time",
+        text: "1.5 seconds",
       },
       {
-        icon: insta,
-        url: "#",
-      },
-      {
-        icon: linkedin,
-        url: "#",
-      },
-      {
-        icon: medium,
-        url: "#",
-      },
-      {
-        icon: telegram,
-        url: "#",
-      },
-      {
-        icon: twitter,
-        url: "#",
+        title: "Range",
+        text: "200 meters",
       },
     ],
+
   },
 ];
 

@@ -1,9 +1,7 @@
 import { Fragment } from "react";
-import { useModal } from "utils/ModalContext";
 import GlobalStyles from "assets/styles/GlobalStyles"
 import Layout from "components/layout"; 
-import WalletModal from "components/modal/walletModal/WalletModal";
-import MetamaskModal from "components/modal/metamaskModal/MetamaskModal";
+
 import Banner from "sections/Banner/v2";
 import Header from "sections/Header/v2";
 import Count from "sections/Count/v2";
@@ -14,13 +12,10 @@ import Faq from "sections/Faq/v1";
 import Footer from "sections/Footer/v2";
 
 export default function HomeTwo() {
-  const { walletModalvisibility, metamaskModal } = useModal();
   return (
     <Fragment>
       <Layout>
         <GlobalStyles />
-        {walletModalvisibility && <WalletModal />}
-        {metamaskModal && <MetamaskModal />}
         <Header />
         <Banner />
         <Count />

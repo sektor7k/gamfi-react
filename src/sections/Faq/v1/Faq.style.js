@@ -42,10 +42,10 @@ const FAQStyleWrapper = styled.section`
     }
   }
   .accordion__item {
-    background: rgba(30, 31, 53, 0.5);
+    background: rgba(255, 255, 255, 0.05);
     backdrop-filter: blur(10px);
     &:hover {
-      background: rgba(255, 255, 255, 0.05);
+      background: rgba(255, 255, 255, 0.03);
     }
   }
   .accordion__header {

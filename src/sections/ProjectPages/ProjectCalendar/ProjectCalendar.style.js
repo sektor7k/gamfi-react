@@ -3,7 +3,7 @@ import styled from "styled-components";
 const ProjectCalendarStyleWrapper = styled.div`
   padding-top: 70px;
   padding-bottom: 130px;
-  background: #070707;
+  background: #000000;
 
   .week_list {
     height: 62px;
@@ -25,7 +25,7 @@ const ProjectCalendarStyleWrapper = styled.div`
       padding: 20px;
       height: 162px;
       vertical-align: super;
-      background: rgba(30, 31, 53, 0.8);
+      background: rgba(255, 255, 255, 0.05);
       z-index: 1;
       font-family: "Russo One";
       font-style: normal;
@@ -57,7 +57,7 @@ const ProjectCalendarStyleWrapper = styled.div`
   }
 
   .project_calendar_header {
-    background: #222231;
+    background: rgba(255, 255, 255, 0.05);
     margin-bottom: 40px;
     height: 60px;
     display: flex;

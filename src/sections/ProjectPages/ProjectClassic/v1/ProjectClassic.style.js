@@ -27,7 +27,7 @@ const ProjectClassicStyleWrapper = styled.section`
     position: relative;
     display: flex;
     align-items: center;
-    max-width: 333px;
+    max-width: 500px;
     width: 100%;
     margin-bottom: 50px;
     z-index: 1;

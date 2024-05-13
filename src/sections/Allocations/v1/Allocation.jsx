@@ -13,9 +13,9 @@ const Allocation = () => {
         </SectionTitleWrapper>
         <div className="row">
           <ul className="menu-list">
-            <li>TIERS</li>
-            <li>STAKING</li>
-            <li>ALLOCATION</li>   
+            <li>RANK</li>
+            <li>RANGE</li>
+            <li>POOL SHARE</li>   
           </ul>
         </div>
         <div className="row align-items-center projects-row">

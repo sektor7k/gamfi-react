@@ -8,7 +8,7 @@ const ProjectCardStyleWrapper = styled.div`
     align-items: center;
     justify-content: flex-start;
     padding: 26px !important;
-    background: rgba(30, 31, 53, 0.8);
+    background: rgba(255, 255, 255, 0.05);
     backdrop-filter: blur(5px);
     overflow: hidden;
     z-index: 1;
@@ -64,7 +64,7 @@ const ProjectCardStyleWrapper = styled.div`
       background: radial-gradient(
         circle,
         rgba(96, 79, 169, 0.58) -7%,
-        #1e1f35 30%
+        
       );
       &::before {
         opacity: 0.7;

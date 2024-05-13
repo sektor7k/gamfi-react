@@ -13,7 +13,7 @@ const LeaderboardStyleWrapper = styled.div`
     align-items: center;
     justify-content: space-between;
     padding: 25px 20px !important;
-    background: rgba(30, 31, 53, 0.8);
+    background: rgba(255, 255, 255, 0.05);
     backdrop-filter: blur(5px);
 
     li {

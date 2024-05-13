@@ -5,7 +5,7 @@ import headerBg2 from "assets/images/bg/header-shape2.png";
 const NavWrapper = styled.nav`
   z-index: 999;
   position: relative;
-  background: #090a1a;
+  background: #000000;
  
   &::before,
   &::after {
