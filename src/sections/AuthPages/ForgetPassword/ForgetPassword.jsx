@@ -4,7 +4,7 @@ import ForgetPasswordStyleWrapper from "./ForgetPassword.style";
 const ForgetPassword = () => {
     return (
         <ForgetPasswordStyleWrapper>
-            <div className="container">
+            <div class="container min-vh-100">
                 <div className="row">
                     <div className="col-lg-8 offset-lg-2">
                         <div className="auth_form_content">

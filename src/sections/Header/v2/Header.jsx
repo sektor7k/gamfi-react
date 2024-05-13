@@ -22,12 +22,12 @@ const Header = () => {
 
   const handleWalletConnection = async () => {
     if (isConnect) {
-      // Eğer cüzdan bağlıysa, bağlantıyı kes
+      
       await disconnect();
       setAddress('');
       setIsConnect(false);
     } else {
-      // Eğer cüzdan bağlı değilse, cüzdanı bağla
+      
       try {
         const { wallet } = await connect();
         if (wallet && wallet.isConnected) {
