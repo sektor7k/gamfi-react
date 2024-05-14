@@ -14,7 +14,7 @@ export default function ProjectsCalendarPage() {
         <GlobalStyles />
 
         <Header />
-        <PageHeader currentPage="CALENDAR VIEW" pageTitle="IGO CALENDAR" />
+        <PageHeader currentPage="CALENDAR VIEW" pageTitle="GEM REWARDS" />
         <ProjectCalendar />
         <Footer />
       </Layout>

@@ -7,8 +7,8 @@ const data = [
   },
   {
     id: "2ZYYU",
-    title: "Projects",
-    url: "/projects-classic-1",
+    title: "Weapon Inventory",
+    url: "/weapon-inventory",
   },
   {
     id: "ZYUVV",

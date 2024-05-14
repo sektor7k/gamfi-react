@@ -11,7 +11,6 @@ export default function ProjectClassicOne() {
     <Fragment>
       <Layout>
         <GlobalStyles />
-
         <Header />
         <ProjectClassic />
         <Footer />

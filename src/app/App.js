@@ -6,18 +6,23 @@ import Signin from "pages/login";
 import Signup from "pages/register";
 import ForgetPassword from "pages/forget-password";
 import Leaderboard from "pages/leaderboard";
+import Header from "sections/Header/v2";
+import Dashboard from "pages/dashboard";
 
 function App() {
   return (
+    <>
     <Routes>
       <Route path="/" element={<HomeTwo />} />
-      <Route path="/projects-classic-1" element={<ProjectsClassic />} />
+      <Route path="/weapon-inventory" element={<ProjectsClassic />} />
       <Route path="/gemrewards" element={<ProjectsCalendar />} />
       <Route path="/login" element={<Signin />} />
       <Route path="/register" element={<Signup />} />
       <Route path="/forget-password" element={<ForgetPassword />} />
       <Route path="/leaderboard" element={<Leaderboard />} />
-    </Routes>
+      <Route path="/dashboard" element={<Dashboard />} />
+
+    </Routes></>
   );
 }
 
